@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Goldiblocks and the Three Bear-rays
+title: First Title
 ---
 Here is some text. Ipsums epsums rgugei akfjvssjggi.
 
