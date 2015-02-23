@@ -137,5 +137,5 @@ goldie.alive
 =>false
 ```
 
-This is all from a full program. For the complete file, check it out [here](https://github.com/pbfreak422/goldiblocks).
+This is all from a full program. Check out the complete file [here](https://github.com/pbfreak422/goldiblocks).
 
