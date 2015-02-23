@@ -128,7 +128,7 @@ papa.size
 papa.administer_justice(goldie)
 "Bite to the face!
 Goldiblocks has committed her last B&E.
-The last thing she hears is "No porridge will EVER BE our porridge.""
+The last thing she hears is 'No porridge will EVER BE our porridge.'"
 
 goldie.alive
 =>false
