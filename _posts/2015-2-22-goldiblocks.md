@@ -4,6 +4,12 @@ title: Goldiblocks and the Three Bear-rays
 ---
 
 
+
+<h6>The following is a short story told through the inputs and outputs of class-based code in Ruby:</h6>
+
+---
+
+
 Once upon a time, there was a little girl named Goldiblocks. 
 
 ``` ruby
