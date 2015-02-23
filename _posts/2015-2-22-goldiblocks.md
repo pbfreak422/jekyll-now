@@ -98,7 +98,7 @@ papa.find_intruder(goldie)
 "You're going down, Goldiblocks!!!"
 
 goldie.escape_attempt(home)
-=>Goldiblocks looks around for the nearest escape.
+Goldiblocks looks around for the nearest escape.
 She finds a window and makes a break for it!
 ```
 
@@ -134,5 +134,5 @@ goldie.alive
 =>false
 ```
 
-For the full code, check out https://github.com/pbfreak422/goldiblocks
+This is all from a full program. For the complete file, check out https://github.com/pbfreak422/goldiblocks
 
