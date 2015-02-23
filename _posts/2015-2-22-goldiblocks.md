@@ -13,7 +13,7 @@ goldie.name = "Goldiblocks"
 
 She went for a walk somehwere little girls should never go...the forest. But this is a story and it would boring if she just went on a walk to buy fruit, so the forest it is. 
 
-Pretty soon, she stumbled upon a house. While most people would have just walked away, little miss Goldiblocks just HAD to see what was inside.
+Pretty soon, she stumbled upon a house. While most people would have just let the house be, little miss Goldiblocks just HAD to see what was inside.
 
 ``` ruby
 home = House.new
@@ -28,7 +28,7 @@ home.guests
 => ["Goldiblocks"]
 ```
 
-Goldiblocks entered the kitchen, starving as usual, ready to eat someone else's food.
+Goldiblocks entered the kitchen, starving as usual, very ready to eat someone else's food.
 
 ``` ruby
 home.porridges
@@ -43,16 +43,16 @@ home.porridges
 => ["hot", "cold", nil]
 ```
 
-After she was done stuffing her face, Goldiblocks realized how exhausing all that work was. She went to go park herself in a chair for a bit.
+After she was done stuffing her face, Goldiblocks realized how exhausing all that hard work was. She went to go park herself in a chair for a bit.
 
 ``` ruby
 home.chairs
 => ["big", "medium", "small"]
 
 goldie.sit_down(home.chairs)
-"This chair is big enough for a bear."
-"Another huge-ass chair."
-"This one is actually oka.....Ah, crap."
+"This chair could be big enough for a bear."
+"Wow, Another huge-ass chair."
+"This one is actually oka...[SNAP]...Ah, crap."
 
 home.chairs
 => ["big", "medium", nil]
@@ -83,7 +83,7 @@ mama = Bear.new
 baby = Bear.new
 ```
 
-They walked inside their home after a lovely visit to their local church with all of their bear neighbors, when they noticed something was wrong. Someone was messing with their stuff. As you might expect...
+They walked inside their home after a lovely visit to their local church with all of their bear-friends, when they noticed something was wrong. Someone was messing with their stuff. And as you might expect...
 
 ``` ruby
 papa.come_home_to_looted_house
@@ -91,7 +91,7 @@ papa.mood
 =>"pissed"
 ```
 
-The bears search around for the person who broke into their home, when...
+The bears searched around for the person who broke into their home, when...
 
 ``` ruby
 papa.find_intruder(goldie)
@@ -114,7 +114,7 @@ Random Outcome 1:
 papa.just_missed(goldie)
 Papa barely misses and allows Goldiblocks to get away.
 Goldiblocks runs away in the forest, never to be seen by the bear family again.
-Hopefully Goldiblocks stops eating other people's porridge.
+Hopefully Goldiblocks stops eating other people's porridge. It's totally not cool.
 ```
 
 Random Outcome 2:
