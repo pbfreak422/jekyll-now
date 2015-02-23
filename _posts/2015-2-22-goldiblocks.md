@@ -7,8 +7,6 @@ title: Goldiblocks and the Three Bear-rays
 
 ---
 
-\n
-\n
 Once upon a time, there was a little girl named Goldiblocks. 
 
 ``` ruby
@@ -139,5 +137,5 @@ goldie.alive
 =>false
 ```
 
-This is all from a full program. For the complete file, check out https://github.com/pbfreak422/goldiblocks
+This is all from a full program. For the complete file, check it out [here](https://github.com/pbfreak422/goldiblocks)
 
