@@ -3,9 +3,7 @@ layout: post
 title: Goldiblocks and the Three Bear-rays
 ---
 
-
-
-The following is a short story told through the inputs and outputs of class-based code in Ruby. You can find the full program at the bottom. Yes, you have to scroll past all the words I wrote. Try to read some of them on the way down.
+*The following is a short story told through the inputs and outputs of class-based code in Ruby. You can find the full program at the bottom. Yes, you have to scroll past all the words I wrote. Try to read some of them on the way down.*
 
 ---
 
