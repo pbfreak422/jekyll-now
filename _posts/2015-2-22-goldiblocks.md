@@ -7,7 +7,8 @@ title: Goldiblocks and the Three Bear-rays
 
 ---
 
-
+\n
+\n
 Once upon a time, there was a little girl named Goldiblocks. 
 
 ``` ruby
