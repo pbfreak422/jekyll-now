@@ -129,4 +129,5 @@ goldie.alive
 =>false
 ```
 
+For the full code, check out https://github.com/pbfreak422/goldiblocks
 
