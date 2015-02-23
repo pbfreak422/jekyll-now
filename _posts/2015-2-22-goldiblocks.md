@@ -98,8 +98,8 @@ papa.find_intruder(goldie)
 "You're going down, Goldiblocks!!!"
 
 goldie.escape_attempt(home)
-Goldiblocks looks around for the nearest escape.
-She finds a window and makes a break for it!
+"Goldiblocks looks around for the nearest escape.
+She finds a window and makes a break for it!"
 ```
 
 But it won't be that easy.
@@ -112,9 +112,9 @@ Random Outcome 1:
 
 ``` ruby
 papa.just_missed(goldie)
-Papa barely misses and allows Goldiblocks to get away.
+"Papa barely misses and allows Goldiblocks to get away.
 Goldiblocks runs away in the forest, never to be seen by the bear family again.
-Hopefully Goldiblocks stops eating other people's porridge. It's totally not cool.
+Hopefully Goldiblocks stops eating other people's porridge. It's totally not cool."
 ```
 
 Random Outcome 2:
@@ -126,9 +126,9 @@ papa.size
 =>"huge"
 
 papa.administer_justice(goldie)
-Bite to the face!
+"Bite to the face!
 Goldiblocks has committed her last B&E.
-The last thing she hears is "No porridge will EVER BE our porridge."
+The last thing she hears is "No porridge will EVER BE our porridge.""
 
 goldie.alive
 =>false
