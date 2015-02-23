@@ -98,7 +98,7 @@ papa.find_intruder(goldie)
 "You're going down, Goldiblocks!!!"
 
 goldie.escape_attempt(home)
-Goldiblocks looks around for the nearest escape.
+=>Goldiblocks looks around for the nearest escape.
 She finds a window and makes a break for it!
 ```
 
