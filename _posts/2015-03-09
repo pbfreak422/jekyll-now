@@ -1,0 +1,31 @@
+---
+layout: post
+title: Automagically-Generated Forms
+---
+<h1>Form-Fors</h1>
+
+The beauty of form_for is that it is associated with an actual object, unlike the form_tag option or straight html
+
+
+form_for is essentially associated with a model object. In this case it is the Todo model and the object is @new_todo
+
+<%= form_for @new_todo ... %>
+The object is initialized in the Todos controller as @new_todo = Todo.new.
+
+2. form_for picks up the method from the model object. In form_tag, the method was explicitely stated as 'post'.
+
+<%= form_tag("/todos/add", :method=>"post") do %>
+form_for picks up the method based on the model object. Since @new_todo is empty, the method is picked up as 'post'. If @new_todo contained a todo item (eg. @new_todo = Todo.first), the method will be 'put'.
+
+3. form_for has form builder object - |f|. The form elements (in our case text_field and submit button) are built through the variable f. f.text_field(:todo_item). For form_tag, we used text_field_tag(:todo_text).
+
+f encapsulates the form elements. Also, the element name needs to match the model field name. In the model Todo, the field name is 'todo_item'. For form_tag, the input field name was 'todo_text'.
+
+Form builder object maps the model object to corresponding form elements. If @new_todo had a todo item in it (eg. @new_todo = Todo.first), the input field 'f.text_field(:todo_item)' gets automatically filled with the todo item value (eg. @new_todo.todo_item) in the view.
+
+Tip The form_for functionality is helpful in creating single form to either add a new item or edit an existing item. The model object's content changes in the two cases (referring to @new_todo) but the form_for code remains the same.
+
+4. The controller code inside add action also need to be changed from params[:todo_text] to params[:todo][:todo_item] to take care of this change. All the data from the form is available inside params[:todo] hash.
+
+Note To handle the data from form_for inside the controller, the params variable is in the form of params[:name of the model][:name of the input field]
+
